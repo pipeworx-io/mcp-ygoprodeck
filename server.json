@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/ygoprodeck",
+  "title": "Ygoprodeck",
+  "description": "YGOPRODeck MCP — Yu-Gi-Oh! trading card game (TCG) database.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/ygoprodeck",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-ygoprodeck",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/ygoprodeck/mcp"
+    }
+  ]
+}
