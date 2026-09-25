@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ygoprodeck",
   "title": "Ygoprodeck",
   "description": "YGOPRODeck MCP — Yu-Gi-Oh! trading card game (TCG) database.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ygoprodeck",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ygoprodeck",
