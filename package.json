@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ygoprodeck",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "YGOPRODeck MCP — Yu-Gi-Oh! trading card game (TCG) database.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8eb09f02c7b7fe0abf0b77185c9781974cfdb1b012095f6d0bae1b1c44ea85f1",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-28010ae970081eb177ab5fcc714df1a5eb0170635ef1943f02ff5906227b52f9",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
