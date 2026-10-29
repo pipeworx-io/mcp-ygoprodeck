@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-ygoprodeck",
-  "version": "0.1.2",
-  "description": "YGOPRODeck MCP — Yu-Gi-Oh! trading card game (TCG) database.",
+  "version": "0.2.0",
+  "description": "YGOPRODeck MCP — Yu-Gi-Oh! trading card game (TCG) database. Keyless. Sends a User-Agent. Base: https://db.ygoprodeck.com/api/v7",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-ygoprodeck": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ygoprodeck"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-ygoprodeck.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/ygoprodeck",
   "pipeworx": {
-    "sourceHash": "v1-28010ae970081eb177ab5fcc714df1a5eb0170635ef1943f02ff5906227b52f9",
-    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
+    "mode": "gateway",
+    "slug": "ygoprodeck",
+    "gatewaySlug": "ygoprodeck",
+    "sourceHash": "v1-468352bf88bfb6c34682b5673dd6631f41f10d30445344ad5c48a43cce886dec",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
