@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ygoprodeck",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "YGOPRODeck MCP — Yu-Gi-Oh! trading card game (TCG) database. Keyless. Sends a User-Agent. Base: https://db.ygoprodeck.com/api/v7",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ygoprodeck",
     "gatewaySlug": "ygoprodeck",
-    "sourceHash": "v1-468352bf88bfb6c34682b5673dd6631f41f10d30445344ad5c48a43cce886dec",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-45749666971542127a39de988872455f8df0033213b5bf015495d929cf31b368",
+    "sourceCommit": "78b905fa3a6880dfb85c79150f4bffe8cf50ef00"
   }
 }
